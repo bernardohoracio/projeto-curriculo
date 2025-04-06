@@ -24,26 +24,32 @@ li {
     padding: 30px;
     color: white;
 }
-main {
-    
-}
 
-section {
+section.s1 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 
     background-image: linear-gradient(to bottom, #5f5facbe, transparent);
-
 }
 
+.s2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.445); 
+    background-color:   #5f5fac7c;
+    height: 100px;
+
+}
 article {
     padding: 60px;
 }
 
 article > img {
-    
     
     width: 150px;
     border-radius: 100%;
